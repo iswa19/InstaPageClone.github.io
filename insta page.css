@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.insta-page{
+     display: flex;
+     flex-wrap: wrap;
+     height: 100vh;
+}
+          /*------------------sidebar start-----------*/
+.side-bar{
+    flex-grow: 1;
+    border-right: 1px solid black;
+ 
+
+}
+.main-heading{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 30px; 
+}
+.side-items{
+    margin-top: 50px;
+}
+.icon-title{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+   margin-top: 30px;
+   margin-left: 20px;
+  
+    
+}
+.title{
+    font-size: larger;
+    align-self: center;
+}
+.last-item{
+    height: 500px;
+    margin-top: 90px;
+    align-self: flex-end;
+
+}
+
+/*------------------sidebar end-----------*/
+
+.main-content{
+    flex-grow: 8;
+    width: 700px;
+    align-self: center;
+}
+
+        /*------------Page head start --------------*/
+.p-img{
+    border: 4px solid palevioletred;
+    border-radius: 100%;
+}
+.Page-head{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 300px;
+}
+.profile-pic{
+    align-self:center;
+    width: 200px;
+   
+}
+.details{
+    display: flex;
+    gap: 10px;
+}
+.page-name{
+    font-weight:300;
+    font-size: large;
+    align-self: center;
+}
+.f-btn{
+    background-color: rgb(96, 168, 255);
+    border-color:rgb(96, 168, 255) ;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.m-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(229, 229, 229);
+    background-color:rgb(229, 229, 229) ;
+    font-weight: bold; 
+}
+.post-number{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 80px;
+    align-items: center;
+}
+ 
+/*-----------------------Page head end --------------*/
+
+/*------------------story section start --------------*/
+.stories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:40px;
+    height: 200px;
+    align-items: center;
+}
+.story-img{
+    border-radius: 100%;
+    border: 2px solid rgb(186, 184, 184);
+}
+.story-title{
+    font-weight:600;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(98, 97, 97);
+    font-size: smaller;
+
+}
+.story-8{
+    align-self: center;
+}
+
+/*------------------story section end --------------*/
+
+/*------------------navbar start --------------*/
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    height: 60px;
+    align-items:center;
+    gap: 50px;
+    width: 900px;
+    margin-left: 200px;
+    border-top: 2px solid lightgray;
+}
+/*------------------navbar end --------------*/
+
+/*------------------Post section start--------------*/
+.row-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.post-1{
+    width:"320px";
+     height:"400px";
+}
+/*------------------Post section end--------------*/
+
+/*------------------footer start--------------*/
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+    height: 50px;
+    align-items: center;
+}
+.footer-content{
+    font-size: small;
+    color: rgb(160, 155, 155);
+}
+.end-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    gap: 25px;
+}
+ 
+/*------------------footer end--------------*/
+
+   /*-------Media quries--------------*/
+
+   @media screen and (max-width:480px) and (min-width:320px) {
+    .row-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        width:"100px";
+        height:"150px";
+    }
+    
+   }
